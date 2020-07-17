@@ -1,0 +1,5 @@
+pymol.finish_launching()
+
+pymol.cmd.disable("all")
+pymol.cmd.enable('6LU7_ATOM')
+pymol.cmd.png("my_pdb.png")
